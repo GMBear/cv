@@ -1,0 +1,52 @@
+/**************** TAG SELECTORS **************/
+
+body {
+  background-color: #A5C9CA;
+  font: 0.8em "Tahoma", sans-serif;
+}
+
+h1 {
+  font: 2.2em "Tahoma", sans-serif;
+  color: #2C3333;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 1.4em "Tahoma", sans-serif;
+  color: #2C3333;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-color:#395B64;
+  border-top-width: 10px;
+  height: 0;
+  width: 10%;
+}
+
+
+/**************** CLASS SELECTORS **************/
+
+.circular {
+  border-radius: 100%
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  text-align: center;
+  width: 40%;
+}
